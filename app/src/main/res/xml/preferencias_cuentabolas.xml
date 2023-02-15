@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gris_500">
+
+    <ListPreference
+        android:defaultValue="false"
+        android:entries="@array/velocidades"
+        android:entryValues="@array/velocidades"
+        android:icon="@drawable/ic_speed_black_24dp"
+        android:key="list_velocidad"
+        android:summary="@string/txtVelocidad"
+        android:title="@string/velocidadPref"
+        app:icon="@drawable/ic_speed_black_24dp"
+        app:summary="@string/txtVelocidad" />
+    <ListPreference
+        android:defaultValue="false"
+        android:entries="@array/tiempos"
+        android:entryValues="@array/tiempos"
+        android:icon="@drawable/ic_timer_black_24dp"
+        android:key="list_tiempo"
+        android:summary="@string/txtTiempo"
+        android:title="@string/tiemposPref"
+        app:icon="@drawable/ic_timer_black_24dp" />
+    <ListPreference
+        android:entries="@array/nBolas"
+        android:entryValues="@array/nBolas"
+        android:icon="@drawable/ic_confirmation_number_black_24dp"
+        android:key="list_nBolas"
+        android:summary="@string/txtNbolas"
+        android:title="@string/nBolasPref"
+        app:icon="@drawable/ic_confirmation_number_black_24dp" />
+    <ListPreference
+        android:entries="@array/nColores"
+        android:entryValues="@array/nColores"
+        android:icon="@drawable/ic_color_lens_black_24dp"
+        android:key="list_nColores"
+        android:summary="@string/txtNcolores"
+        android:title="@string/nColoresPref"
+        app:icon="@drawable/ic_color_lens_black_24dp"
+        app:summary="@string/txtNcolores" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_outbound_black_24dp"
+        android:key="switch_rebote"
+        android:summary="@string/txtRebote"
+        android:title="@string/rebotePref"
+        app:icon="@drawable/ic_outbound_black_24dp"
+        app:summary="@string/txtRebote" />
+    <Preference
+        android:id="@+id/pref_volver"
+        android:layout="@layout/layout_volver"
+        android:title="Volver" />
+</PreferenceScreen>

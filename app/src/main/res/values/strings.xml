@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CuentaBolas</string>
+    <string name="intro">¿Eres capaz de contar todas las bolas? Trata de contar todas las bolas que aparecen en pantalla e identificar su color durante un tiempo limitado. ¿Estás preparado?</string>
+    <string name="btEmpezar">¿Empezamos ya?</string>
+    <string name="menuPref">Preferencias</string>
+    <string name="velocidadPref">Velocidad</string>
+    <string name="tiemposPref">Tiempo</string>
+    <string name="nBolasPref">Número de bolas</string>
+    <string name="nColoresPref">Número de colores</string>
+    <string name="rebotePref">Rebote</string>
+    <string name="txtVelocidad">Selecciona la velocidad de las bolas</string>
+    <string name="txtTiempo">Selecciona el tiempo que quieres jugar</string>
+    <string name="txtNbolas">Selecciona el número de bolas de cada color</string>
+    <string name="txtNcolores">Selecciona el número de colores</string>
+    <string name="txtRebote">Elige el comportamiento de las bolas, rebotan en la pared o aparecen por otro lado</string>
+    <string name="preparados">preparados</string>
+    <string name="resultado">El tiempo ha acabado</string>
+    <string name="msgResultado">¿Cuántas bolas de cada color había moviendose por la pantalla?</string>
+    <string name="verde">Verde</string>
+    <string name="rojo">Rojo</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="azul">Azul</string>
+    <string name="magenta">Magenta</string>
+    <string name="comprobar">comprobar resultados</string>
+    <string name="volver">volver</string>
+
+
+</resources>
